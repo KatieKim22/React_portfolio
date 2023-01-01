@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/KatieKim22/react-portfolio/static/css/main.db6477db.css",
+    "main.js": "/KatieKim22/react-portfolio/static/js/main.fcb9f938.js",
+    "static/media/temp_1624553840068.1945164888.jpeg": "/KatieKim22/react-portfolio/static/media/temp_1624553840068.1945164888.41cdcd26443b951a1024.jpeg",
+    "static/media/KatieKim_Resume.pdf": "/KatieKim22/react-portfolio/static/media/KatieKim_Resume.83729d4b241836a1e2b8.pdf",
+    "static/media/291716_github_logo_social network_social_icon.png": "/KatieKim22/react-portfolio/static/media/291716_github_logo_social network_social_icon.ba9cb8d57d53e7189c48.png",
+    "static/media/291709_logo_linked in_social network_social_social media_icon.png": "/KatieKim22/react-portfolio/static/media/291709_logo_linked in_social network_social_social media_icon.131b233a651212306d06.png",
+    "index.html": "/KatieKim22/react-portfolio/index.html",
+    "main.db6477db.css.map": "/KatieKim22/react-portfolio/static/css/main.db6477db.css.map",
+    "main.fcb9f938.js.map": "/KatieKim22/react-portfolio/static/js/main.fcb9f938.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db6477db.css",
+    "static/js/main.fcb9f938.js"
+  ]
+}
