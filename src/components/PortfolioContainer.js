@@ -15,6 +15,9 @@ export default function PortfolioContainer() {
         case '/':
             component = <About />
             break;
+        case '/react-portfolio':
+                component = <About />
+                break;
         case '/About':
             component = <About />
             break;
@@ -34,7 +37,7 @@ export default function PortfolioContainer() {
     return (
         <div>
             <NavTabs />
-            <div id='container' style={CssStyle}>
+            <div id='container-2' style={CssStyle}>
                 {component}
             </div>
             <Footer />
