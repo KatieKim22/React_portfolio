@@ -16,8 +16,8 @@ export default function PortfolioContainer() {
             component = <About />
             break;
         case '/react-portfolio':
-                component = <About />
-                break;
+            component = <About />
+            break;
         case '/About':
             component = <About />
             break;
@@ -28,6 +28,18 @@ export default function PortfolioContainer() {
             component = <Portfolio />
             break;
         case '/Resume':
+            component = <Resume />
+            break;
+        case '/react-portfolio/About':
+            component = <About />
+            break;
+        case '/react-portfolio/Contact':
+            component = <Contact />
+            break;
+        case '/react-portfolio/Portfolio':
+            component = <Portfolio />
+            break;
+        case '/react-portfolio/Resume':
             component = <Resume />
             break;
         default:
