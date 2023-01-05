@@ -44,6 +44,22 @@ export default function PortfolioContainer() {
                             path="/react-portfolio/Resume"
                             element={<Resume />}
                         />
+                        <Route
+                            path="/About"
+                            element={<About />}
+                        />
+                        <Route
+                            path="/Contact"
+                            element={<Contact />}
+                        />
+                        <Route
+                            path="/Portfolio"
+                            element={<Portfolio />}
+                        />
+                        <Route
+                            path="/Resume"
+                            element={<Resume />}
+                        />
                     </Routes>
                 </div>
                 <Footer />
