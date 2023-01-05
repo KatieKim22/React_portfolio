@@ -29,19 +29,19 @@ export default function PortfolioContainer() {
                             element={<About />}
                         />
                         <Route
-                            path="/react-portfolio/About"
+                            path="/react-portfolio/#/About"
                             element={<About />}
                         />
                         <Route
-                            path="/react-portfolio/Contact"
+                            path="/react-portfolio/#/Contact"
                             element={<Contact />}
                         />
                         <Route
-                            path="/react-portfolio/Portfolio"
+                            path="/react-portfolio/#/Portfolio"
                             element={<Portfolio />}
                         />
                         <Route
-                            path="/react-portfolio/Resume"
+                            path="/react-portfolio/#/Resume"
                             element={<Resume />}
                         />
                         <Route
