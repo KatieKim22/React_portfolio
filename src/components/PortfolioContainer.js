@@ -15,7 +15,7 @@ export default function PortfolioContainer() {
         case '/':
             component = <About />
             break;
-        case '/react-portfolio':
+        case '/react-portfolio/':
             component = <About />
             break;
         case '/About':
