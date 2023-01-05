@@ -10,10 +10,10 @@ function NavTabs() {
         <Container>
           <Navbar.Brand href="About">Katie Kim</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="About">About</Nav.Link>
-            <Nav.Link href="Portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="Contact">Contact</Nav.Link>
-            <Nav.Link href="Resume">Resume</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/About">About</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/Contact">Contact</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/Resume">Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
