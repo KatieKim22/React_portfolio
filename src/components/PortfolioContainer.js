@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavTabs from './NavTabs';
 import Footer from './Footer';
@@ -10,49 +11,44 @@ import Resume from './pages/Resume';
 import CssStyle from '../styles/body.css'
 
 export default function PortfolioContainer() {
-    let component
-    switch (window.location.pathname) {
-        case '/':
-            component = <About />
-            break;
-        case '/react-portfolio/':
-            component = <About />
-            break;
-        case '/About':
-            component = <About />
-            break;
-        case '/Contact':
-            component = <Contact />
-            break;
-        case '/Portfolio':
-            component = <Portfolio />
-            break;
-        case '/Resume':
-            component = <Resume />
-            break;
-        case '/react-portfolio/About':
-            component = <About />
-            break;
-        case '/react-portfolio/Contact':
-            component = <Contact />
-            break;
-        case '/react-portfolio/Portfolio':
-            component = <Portfolio />
-            break;
-        case '/react-portfolio/Resume':
-            component = <Resume />
-            break;
-        default:
-            break;
-    }
 
     return (
-        <div>
-            <NavTabs />
-            <div id='container-2' style={CssStyle}>
-                {component}
+        <Router>
+            <div>
+                <NavTabs />
+                <div id='container-2' style={CssStyle}>
+                    <Routes>
+                        {/* Define routes to render different page components at different paths */}
+                        <Route
+                            path="/"
+                            element={<About />}
+                        />
+                        {/* Define a route that will take in variable data */}
+                        <Route
+                            path="/react-portfolio"
+                            element={<About />}
+                        />
+                        <Route
+                            path="/react-portfolio/About"
+                            element={<About />}
+                        />
+                        <Route
+                            path="/react-portfolio/Contact"
+                            element={<Contact />}
+                        />
+                        <Route
+                            path="/react-portfolio/Portfolio"
+                            element={<Portfolio />}
+                        />
+                        <Route
+                            path="/react-portfolio/Resume"
+                            element={<Resume />}
+                        />
+                    </Routes>
+                </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </Router>
+
     )
 }
