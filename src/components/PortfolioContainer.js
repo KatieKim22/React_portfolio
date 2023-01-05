@@ -13,7 +13,7 @@ import CssStyle from '../styles/body.css'
 export default function PortfolioContainer() {
 
     return (
-        <Router>
+        <HashRouter>
             <div>
                 <NavTabs />
                 <div id='container-2' style={CssStyle}>
@@ -64,7 +64,7 @@ export default function PortfolioContainer() {
                 </div>
                 <Footer />
             </div>
-        </Router>
+        </HashRouter>
 
     )
 }
