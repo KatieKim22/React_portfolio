@@ -8,7 +8,7 @@ function NavTabs() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="About">Katie Kim</Navbar.Brand>
+          <Navbar.Brand href="/react-portfolio/#/About">Katie Kim</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/react-portfolio/#/About">About</Nav.Link>
             <Nav.Link href="/react-portfolio/#/Portfolio">Portfolio</Nav.Link>
