@@ -1,9 +1,11 @@
-// import './App.css';
+import './styles/body.css';
 import PortfolioContainer from './components/PortfolioContainer'
+
 
 function App() {
   return (
     <PortfolioContainer />
+    
   );
 }
 

@@ -7,13 +7,13 @@ function NavTabs() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="/react-portfolio/#/About">Katie Kim</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="/react-portfolio/#/About">About</Nav.Link>
-            <Nav.Link href="/react-portfolio/#/Portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/react-portfolio/#/Contact">Contact</Nav.Link>
-            <Nav.Link href="/react-portfolio/#/Resume">Resume</Nav.Link>
+        <Container className='nav'>
+          <Navbar.Brand href="/react-portfolio/#/About" className='nav'>Katie Kim</Navbar.Brand>
+          <Nav className="me-auto nav">
+            <Nav.Link href="/react-portfolio/#/About" className='nav'>About</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/Portfolio" className='nav'>Portfolio</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/Contact" className='nav'>Contact</Nav.Link>
+            <Nav.Link href="/react-portfolio/#/Resume" className='nav'>Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

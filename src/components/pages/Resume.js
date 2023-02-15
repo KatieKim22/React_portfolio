@@ -1,7 +1,7 @@
 import React from 'react'
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
-import Kresume from '../image/KatieKim_Resume.pdf'
+import Kresume from '../image/Resume_KatieKim.pdf'
 
 export default function Resume() {
   return (

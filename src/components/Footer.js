@@ -9,12 +9,12 @@ function Footer() {
 
     return (
         <>
-            <Nav className="justify-content-center" activeKey="/home">
+            <Nav className="justify-content-center footer" activeKey="/home">
                 <Nav.Item>
                     <Nav.Link href="https://github.com/KatieKim22"><img src={githubLogo} style={logoStyle} alt='github' /></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href='https://www.linkedin.com/in/katie-kim-cpa-ba74b047/'><img src={linkedinLogo} style={logoStyle} alt='linkedin' /></Nav.Link>
+                    <Nav.Link href='https://www.linkedin.com/in/katie-kim-ba74b047/'><img src={linkedinLogo} style={logoStyle} alt='linkedin' /></Nav.Link>
                 </Nav.Item>
             </Nav>
 

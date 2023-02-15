@@ -1,5 +1,8 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import mypic from '../image/temp_1624553840068.1945164888.jpeg'
 
@@ -7,17 +10,21 @@ export default function About() {
 
     return (
         <>
-            <Card>
-                <Card.Img variant="top" src={mypic} />
-                <Card.Body>
-                    <Card.Text>
-                        Hi my name is Katie Kim. Welcome to my React portfolio. <br /><br />
-                        Logical and results-driven CPA ready to learn and grow as a developer.<br />
-                        Works at fast pace to meet tight deadlines. <br />Enthusiastic team player
-                        ready to contribute to company success.
-                    </Card.Text>
-                </Card.Body>
-            </Card>
+            <Container className='background'>
+                <Row>
+                    <Col sm={3}></Col>
+                    <Col sm={6} className="intro">
+                        Full-stack web developer leveraging background in Accounting to provide unique
+                        perspectives on how end-users interact with websites and software platforms.<br/>
+                    </Col>
+                    <Col sm={3}></Col>
+                </Row>
+                <Row>
+                    <Col sm={2}></Col>
+                    <Col sm={8}><img src={mypic} style={{ width: '100%' }} /></Col>
+                    <Col sm={2}></Col>
+                </Row>
+            </Container>
         </>
     )
 }
